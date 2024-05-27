@@ -1,0 +1,53 @@
+Dataset: ESL 
+Random_state: 1741
+Hyperparams: 
+ {'num_epoches': 7, 'num_warm_up': 1, 'batch_size': 8, 'weight_mle': 0.75, 'selector_lr': 8e-06, 'generator_lr': 0.0005, 'weight_selector_loss': 0.25, 'kg_weight': 0.1, 'n_align_sents': 2, 'n_align_words': 1, 'n_selected_sents': None, 'n_selected_words': None, 'output_max_length': 64, 'finetune_selector_encoder': False, 'finetune_in_OT_generator': False, 'use_rnn': True, 'datasets': 'ESL', 'model_name_or_path': '/vinai/hieumdt/pretrained_models/t5-base', 'tokenizer_name_or_path': '/vinai/hieumdt/pretrained_models/t5-base', 'seed': '1741', 'n_fold': '1', 'data_dir': 'datasets/EventStoryLine/'}
+F1: 0.8173025423746838  
+P: 0.8231005312521074 
+R: 0.8141487733790871 
+-------------------- 
+
+Dataset: Causal-TB 
+Random_state: 1741
+Hyperparams: 
+ {'num_epoches': 7, 'num_warm_up': 2, 'batch_size': 8, 'weight_mle': 0.75, 'selector_lr': 5e-06, 'generator_lr': 0.001, 'weight_selector_loss': 0.25, 'kg_weight': 0.1, 'n_align_sents': 1, 'n_align_words': 5, 'n_selected_sents': None, 'n_selected_words': None, 'output_max_length': 64, 'finetune_selector_encoder': False, 'finetune_in_OT_generator': False, 'use_rnn': True, 'datasets': 'Causal-TB', 'model_name_or_path': '/vinai/hieumdt/pretrained_models/t5-base', 'tokenizer_name_or_path': '/vinai/hieumdt/pretrained_models/t5-base', 'seed': '1741', 'n_fold': '1', 'data_dir': 'datasets/Causal-TimeBank/'}
+F1: 0.7884066541083299  
+P: 0.960632183908046 
+R: 0.6792420471264461 
+-------------------- 
+
+Dataset: causal_mulerx_en 
+Random_state: 1741
+Hyperparams: 
+ {'num_epoches': 50, 'num_warm_up': 5, 'batch_size': 16, 'weight_mle': 0.5, 'selector_lr': 1e-05, 'generator_lr': 0.0005, 'weight_selector_loss': 0.25, 'kg_weight': 0.1, 'n_align_sents': 1, 'n_align_words': 1, 'n_selected_sents': None, 'n_selected_words': None, 'output_max_length': 64, 'finetune_selector_encoder': False, 'finetune_in_OT_generator': False, 'use_rnn': True, 'datasets': 'causal_mulerx_en', 'model_name_or_path': '/vinai/hieumdt/pretrained_models/mt5-base', 'tokenizer_name_or_path': '/vinai/hieumdt/pretrained_models/mt5-base', 'seed': '1741', 'n_fold': '1', 'data_dir': 'datasets/mulerx/causal-en-10'}
+F1: 0.665764546184742  
+P: 0.6712141882673943 
+R: 0.6604026845637584 
+-------------------- 
+
+Dataset: causal_mulerx_da 
+Random_state: 1741
+Hyperparams: 
+ {'num_epoches': 30, 'num_warm_up': 10, 'batch_size': 16, 'weight_mle': 0.5, 'selector_lr': 3e-05, 'generator_lr': 0.0005, 'weight_selector_loss': 0.25, 'kg_weight': 0.1, 'n_align_sents': 1, 'n_align_words': 1, 'n_selected_sents': None, 'n_selected_words': None, 'output_max_length': 64, 'finetune_selector_encoder': False, 'finetune_in_OT_generator': False, 'use_rnn': True, 'datasets': 'causal_mulerx_da', 'model_name_or_path': '/vinai/hieumdt/pretrained_models/mt5-base', 'tokenizer_name_or_path': '/vinai/hieumdt/pretrained_models/mt5-base', 'seed': '1741', 'n_fold': '1', 'data_dir': 'datasets/mulerx/causal-da-10'}
+F1: 0.5634782603761527  
+P: 0.5054602184087363 
+R: 0.6365422396856582 
+-------------------- 
+
+Dataset: causal_mulerx_es 
+Random_state: 1741
+Hyperparams: 
+ {'num_epoches': 20, 'num_warm_up': 10, 'batch_size': 16, 'weight_mle': 0.5, 'selector_lr': 3e-05, 'generator_lr': 0.0005, 'weight_selector_loss': 0.25, 'kg_weight': 0.1, 'n_align_sents': 1, 'n_align_words': 1, 'n_selected_sents': None, 'n_selected_words': None, 'output_max_length': 64, 'finetune_selector_encoder': False, 'finetune_in_OT_generator': False, 'use_rnn': True, 'datasets': 'causal_mulerx_es', 'model_name_or_path': '/vinai/hieumdt/pretrained_models/mt5-base', 'tokenizer_name_or_path': '/vinai/hieumdt/pretrained_models/mt5-base', 'seed': '1741', 'n_fold': '1', 'data_dir': 'datasets/mulerx/causal-es-10'}
+F1: 0.6068222616184918  
+P: 0.6068222621184919 
+R: 0.6068222621184919 
+-------------------- 
+
+Dataset: causal_mulerx_tr 
+Random_state: 1741
+Hyperparams: 
+ {'num_epoches': 15, 'num_warm_up': 3, 'batch_size': 16, 'weight_mle': 0.5, 'selector_lr': 1e-05, 'generator_lr': 0.001, 'weight_selector_loss': 0.25, 'kg_weight': 0.1, 'n_align_sents': 1, 'n_align_words': 1, 'n_selected_sents': None, 'n_selected_words': None, 'output_max_length': 64, 'finetune_selector_encoder': False, 'finetune_in_OT_generator': False, 'use_rnn': True, 'datasets': 'causal_mulerx_tr', 'model_name_or_path': '/vinai/hieumdt/pretrained_models/mt5-base', 'tokenizer_name_or_path': '/vinai/hieumdt/pretrained_models/mt5-base', 'seed': '1741', 'n_fold': '1', 'data_dir': 'datasets/mulerx/causal-tr-10'}
+F1: 0.7448666504326578  
+P: 0.7245179063360881 
+R: 0.7663914521612433 
+-------------------- 
